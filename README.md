@@ -2,6 +2,8 @@
 Linux一键优选dns，支持IPv4和IPv6。
 
 脚本内置dns列表来自https://dns.icoa.cn/
+
+默认使用全部公共dns，测试时间比较长，请耐心等待。
 # 使用方法
 ~~~
 apt-get install dnsutils wget -y
