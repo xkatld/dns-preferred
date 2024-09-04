@@ -1,5 +1,13 @@
 # dns-preferred
 Linux一键优选dns，支持IPv4和IPv6。
+
+脚本内置dns列表来自https://dns.icoa.cn/
 # 使用方法
 ~~~
-apt-get install dnsutils -y
+apt-get install dnsutils wget -y
+wget https://raw.githubusercontent.com/xkatld/dns-preferred/main/dns.sh
+chmod +x dns.sh
+bash dns.sh
+~~~
+注意：解析域名需要自定义为自己的
+![image](https://github.com/user-attachments/assets/965feb7a-35aa-4671-9626-4f7987aa760b)
